@@ -1,0 +1,31 @@
+{
+  "name": "loop-automation",
+  "version": "1.0.0",
+  "description": "Automated tests for Web and Mobile Applications using Playwright POM framework",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npx playwright install",
+    "test": "npx playwright test",
+    "test:web": "npx playwright test tests/web",
+    "test:mobile": "npx playwright test tests/mobile",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "POM",
+    "typescript",
+    "testing"
+  ],
+  "author": "Emanuela Jovanova",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
