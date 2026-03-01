@@ -1,6 +1,6 @@
 # Loop Automation End-to-End Testing
 
-![CI](https://github.com/your-username/loop-automation/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Ema9336/loop-automation-tests/actions/workflows/ci.yml/badge.svg)
 
 This repository contains a robust, scalable end-to-end testing solution for web and mobile applications, developed for **Loop Automation** (company). Built with **Playwright** and **TypeScript** and following the **Page Object Model (POM)** design pattern, it is designed for professional teams and individuals who require maintainable, reliable, and cross-browser automated testing.
 
