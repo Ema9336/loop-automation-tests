@@ -26,6 +26,9 @@ jobs:
 
       - name: Run all tests
         run: npx playwright test
+        env:
+          TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
+          TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
 
       - name: Upload Playwright HTML report
         if: always()
